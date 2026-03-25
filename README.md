@@ -42,7 +42,7 @@ A RESTful Backend API for managing blogs with user authentication. Built using N
 ---
 
 ##  Project Structure
-
+```bash
 blog-backend/
 │
 ├── config/
@@ -72,7 +72,7 @@ blog-backend/
 ├── .env
 ├── server.js
 └── package.json
-
+```
 
 ---
 
