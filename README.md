@@ -81,9 +81,9 @@ blog-backend/
 ### 1 Clone the repository
 
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/al-Nabil/Blog-Management-System
 cd blog-backend-API
-
+```
 ### 2 Install dependencies
 
 npm install
