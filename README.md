@@ -120,13 +120,14 @@ Blog Routes (Protected)
 | DELETE | /api/blogs/:id | Delete blog     |
 
 ---
-Authentication
+### Authentication
 JWT token is stored in HTTP-only cookies
 Protected routes require a valid token
 Token is verified using middleware
+
 ---
 
-Testing
+### Testing
 
 Use Postman to test APIs:
 
@@ -134,17 +135,20 @@ Use Postman to test APIs:
 2. Login user
 3. Use token/cookie for protected routes
 4. Create / Update / Delete blogs
+
 ---
 
-Notes
+### Notes
 Only the creator of a blog can update or delete it
 Passwords are hashed using bcrypt
 MongoDB is used as the database
+
 ---
 
-Author
+### Author
 
 Md Nabil Al Rahman
+
 ---
 
 ⭐ License
